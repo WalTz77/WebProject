@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="assets\css\style.css">
+  <title>Create Account - WalTzProduction</title>
+
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="create-account-container">
+        <h2>Create Your Account</h2>
+        <form id="createAccountForm" class="form-vertical">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" required />
+    
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+    
+          <label for="newUsername">Username</label>
+          <input type="text" id="newUsername" name="username" placeholder="Username" required />
+    
+          <label for="newPassword">Password</label>
+          <input type="password" id="newPassword" name="password" placeholder="Password" required />
+    
+          <button type="submit">Create Account</button>
+
+          <a href="index.html">Already have an account? Login</a>
+        </form>
+         <!-- Success Message -->
+    <div id="successMessage" class="success-message" style="display: none;">
+      ✅ Account created successfully!
+    </div>
+      </div>
+    
+
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.86/build/spline-viewer.js"></script>
+  <spline-viewer class="robot-3D" url="https://prod.spline.design/1GnsvYMdFSabkWOn/scene.splinecode"></spline-viewer>
+
+  <script src="assets\js\create-account.js"></script>
+</body>
+</html>
